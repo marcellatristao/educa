@@ -1,0 +1,33 @@
+*{
+    margin: 0;    
+}
+
+.categories{
+    margin: 20px;
+}
+
+.row mb-1{
+    margin-bottom: 5px;
+  }
+
+.categorias{
+    color: #707070 !important;
+    font-size:30px;
+}
+
+.container-fluid{
+    margin-top: 50px;
+}
+
+.produtos-title{
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .carousel{
+        position: relative;
+        z-index: 0;
+    }
+}

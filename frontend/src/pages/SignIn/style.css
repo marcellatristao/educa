@@ -1,0 +1,17 @@
+span#semConta{
+    color: #70707d !important;
+}
+
+.linkCadastro{
+    color: red !important;
+}
+
+.linkCadastro:hover{
+    text-decoration: none;
+    color: #00ff !important;
+}
+
+.area-box{
+    background-color: #fff;
+    padding: 50px;
+}

@@ -1,0 +1,37 @@
+.navbar{
+    height: 60px;
+}
+
+span{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#3662F4;
+}
+
+li.nav-item{
+    line-height: 100px;
+}
+
+.link{
+    text-decoration: none !important;
+    color: #707070 !important;
+}
+
+.link:hover{
+    color: black !important;
+}
+
+@media screen and (max-width: 768px){
+    li.nav-item{
+        line-height: inherit;
+        position: relative;
+        z-index: 1;
+        background-color: white;
+        padding-left: 10px;
+    }
+
+    .navbar-toggler-icon{
+        background: black !important;
+        border-radius: 50%;
+    }
+}
